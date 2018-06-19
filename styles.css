@@ -1,15 +1,17 @@
 body { 
-    background-image: url("images/wood-background.png");
+    background-image: url("images/toy-background.png");
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
     text-align: center;
+    margin-top: 200px;
     }
 
 h1 {
     text-transform: uppercase;
     text-align: center;
-    border: 5px solid red;
+    text-transform: bold;
+    border: 10px solid red;
     font-family: Merienda, cursive;
     font-size: 40px;
     color: #ffb300;
@@ -36,6 +38,9 @@ p {
 
 img {
     float: left;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 figure {
@@ -48,7 +53,7 @@ figure {
     color: #ffb300
 }
 
-button {
+a {
     background-color: #000000;
     border: 3px solid red;
     color: #ffb300;
@@ -57,4 +62,15 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 10px;
+}
+a:hover{
+    border: 3px solid #000000;
+    background: #ffb300;
+    color: #000000;
+}
+
+a:active{
+    text-decoration: underline;
+    color: #ffb300;
+
 }
